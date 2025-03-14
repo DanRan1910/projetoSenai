@@ -1,22 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="refresh" content="2">
+    <!-- <meta http-equiv="refresh" content="10"> -->
+   
     <title> Formulários</title>
 </head>
+
 <body>
-    
+
     <form action=""> <!--Estrutura do Formulário-->
 
-            <fieldset> <!--Agrupar as informações do FOrmulário-->
-                <legend> Informações Pessoais </legend> <!-- Nomeia as informações do Formulário-->
+        <fieldset> <!--Agrupar as informações do Formulário-->
+            <legend> Informações Pessoais </legend> <!-- Nomeia as informações do Formulário-->
+            <br>
+            <label for="Nome">Nome</label> <!-- Da nome ao Campo(input)-->
+            <input required type="text" name="Nome" placeholder="Digite seu Nome"> <!-- Campo de Entrada-->
+            <br>
+            
+
+            <br>
+            <label for="Email"> E-mail</label>
+            <input type="email" name="Email" id="" placeholder="Digite seu E-mail">
+            <br>
+            
+
+            <br>
+            <label for="Senha"> Digite sua Senha</label>
+            <input type="password" name="Senha" id="" placeholder="Digite sua Senha">
+            <br>
+            
+
+            <br>
+            <label for="Idade">Idade</label>
+            <input type="number" name="Idade" placeholder="Digite sua Idade">
+            <br>
 
 
-            </fieldset>
+            <br>
+            <label for="Nascimento">Data de Nascimento</label>
+            <input type="date" name="Nascimento">
+            <br>
 
+
+            <br>
+            <label for="Profissao">Profissao</label>
+            <Select name="Profissao"> 
+                <option value="02">Dono de Swing</option>
+                <option value="03">Garoto de Programa</option>
+                <option value="04">Web Designer</option>
+                <option value="05">Outros</option>
+            </Select>
+            <br>
+
+
+            <br>
+            <p>Time Favorito</p>
+            <label>
+                <input type="radio" name="time" value="Corinthians">Corinthians
+                <input type="radio" name="time" value="VARmeiras">VARmeiras
+                <input type="radio" name="time" value="Santos">Santos
+            </label>
+            <br>
+            
+
+            <br>
+            <p>Sabor favorito</p>
+            <label>
+                <input type="checkbox" name="food" value="Caramelo">Caramelo
+                <input type="checkbox" name="food" value="Creme">Creme
+                <input type="checkbox" name="food" value="Baunilha">Baunilha
+            </label>
+        </fieldset>
+            
+
+
+
+
+        <fieldset>
+
+            <legend>Sobre Voce</legend>
+            <label> Fale Sobre Voce</label>
+            <input type="text" nome="Fale Sobre Voce" id="">
+
+        </fieldset>
     </form>
 
 </body>
+
 </html>

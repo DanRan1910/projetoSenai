@@ -1,34 +1,35 @@
-seletor{
+.block {
+    background-color: lightskyblue;
+    padding: 25px;
+    border: 2px solid black;
+    display: block;
+    /*Ocupa a linha inteira*/
+}
 
-    propriedade: valor
+.inLine {
+    background-color: violet;
+    padding: 80px;
+    border: 4px solid green;
+    display: inline;
+    width: 300px;
+    height: 500px;
 
 }
 
-h1{
+.inLine-Block{
+    padding: 30px;
+    border: 10px red solid;
+    background-color: brown;
+    display: inline-block;
+    height: 200px;
 
-    color: aqua;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /*Altera a fonte*/
-    font-size: 80px; /*Altera o tamanho*/
-    text-transform: capitalize;
-    
-}
-
-h2{
-    color: gold;
-    font-family: fantasy; /*Altera a fonte*/
 }
 
 
-
-p{
-    color: antiquewhite;
-    background-color: blue;
-    line-height: 1.2;/*Altura entre as linhas*/
-    font-size: 30px; /*Altera o tamanho*/
-    font-family: 'Eater';
-
-    
-}
-
-
-
+.Flex{
+        padding: 50px;
+        border: 10px solid pink;
+        background-color: bisque;
+        display: flex;
+        text-align: center;
+    }
