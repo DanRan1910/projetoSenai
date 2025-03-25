@@ -1,35 +1,63 @@
-.block {
-    background-color: lightskyblue;
-    padding: 25px;
-    border: 2px solid black;
-    display: block;
-    /*Ocupa a linha inteira*/
+@import url(./global.css);
+
+/* _____________HEADER__________________*/
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--color-neutral-silver);
+}
+ .logo{
+    padding: 30px 0px;
+ }
+
+.nav-header ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
 }
 
-.inLine {
-    background-color: violet;
-    padding: 80px;
-    border: 4px solid green;
-    display: inline;
-    width: 300px;
-    height: 500px;
-
-}
-
-.inLine-Block{
-    padding: 30px;
-    border: 10px red solid;
-    background-color: brown;
-    display: inline-block;
-    height: 200px;
+.nav-header ul a{
+    text-decoration: none;
+    color: #18191f;
 
 }
 
 
-.Flex{
-        padding: 50px;
-        border: 10px solid pink;
-        background-color: bisque;
-        display: flex;
-        text-align: center;
-    }
+.active{
+    font-weight: bold;
+}
+
+
+.btn-Login{
+    color: var(--color-primary);
+    background: transparent;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+.btn-primary{
+    color: var(--color-neutral-white);
+    background-color: var(--color-primary);
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+.btn-header{
+    gap: 14px;
+    padding: 22px 0px;
+}
+/*______________Fim Header_____________ */
+
+
+
+/*______________Inicio Main_____________ */
+/*______________Fim Main_____________ */
+
+
+
+
