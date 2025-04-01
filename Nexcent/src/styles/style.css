@@ -284,12 +284,38 @@ h1{
     margin-bottom: 8px;
 }
 
-.customer-container{
-    display: flex;
+.customer-content p:nth-of-type(1){
+    color: var(--color-neutral-Lgrey);
 }
 
+
+
+.customer-container{
+    display: flex;
+    gap: 32px;
+}
+
+
 .customer-itens{
-    gap: 41px;
+    display: flex;
+    gap: 41px;    
+}
+
+.customer-itens img{
+    width: 48px;
+}
+
+.customer-navegation a{
+    display: flex;
+    text-decoration: none;
+    color: var(--color-primary);
+
+}
+.customer-navegation a p{
+    color: var(--color-primary);
+    display: flex;
+    align-items: center;
+
 }
 
 /* ------------ FIM customer ------------ */
