@@ -93,8 +93,11 @@ Ferramentas:
 <!-- MODELO DE AUTOR-->
 ## 🦸 Autor
 
-<a href="www.linkedin.com/in/daniel-silva-067466250">
+
 Daniel Alves da Silva</a>
+<br>
+Meu Linkedin: <a href="www.linkedin.com/in/daniel-silva-067466250"> www.linkedin.com/in/daniel-silva-067466250
+
  <br />
  
 
