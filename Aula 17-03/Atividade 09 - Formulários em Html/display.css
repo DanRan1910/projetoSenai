@@ -1,0 +1,28 @@
+.block{
+    background-color: blue;
+    padding: 20px;
+    border: 5px solid black;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.inline{
+        background-color: brown;
+    display: inline;
+}
+
+.inLine-Block{
+        background-color: yellow;
+        padding: 50px;
+        border: 3px solid red;
+        display: inline-block;
+
+}
+
+
+.flex{
+    background-color: bisque;
+    padding: 40px;
+    border: 10px solid pink;
+    display: flex;
+}

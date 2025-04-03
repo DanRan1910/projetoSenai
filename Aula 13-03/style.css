@@ -1,0 +1,35 @@
+.block {
+    background-color: lightskyblue;
+    padding: 25px;
+    border: 2px solid black;
+    display: block;
+    /*Ocupa a linha inteira*/
+}
+
+.inLine {
+    background-color: violet;
+    padding: 80px;
+    border: 4px solid green;
+    display: inline;
+    width: 300px;
+    height: 500px;
+
+}
+
+.inLine-Block{
+    padding: 30px;
+    border: 10px red solid;
+    background-color: brown;
+    display: inline-block;
+    height: 200px;
+
+}
+
+
+.Flex{
+        padding: 50px;
+        border: 10px solid pink;
+        background-color: bisque;
+        display: flex;
+        text-align: center;
+    }

@@ -1,0 +1,48 @@
+.EX4fixed{
+    background-color: black;
+    color: white;
+    padding: 30px;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+.EX2absolute{
+    background-color: greenyellow;
+    padding: 80px;
+    border: 1px solid black;
+    width: 100px;
+    height: 150px;
+    top: 200px;
+    left: 1000px;
+    position: absolute;
+}
+
+
+.EX3p{
+    background-color: antiquewhite;
+    width: 120px;
+    height: 80px;
+    position: absolute;
+}
+.EX3relative{
+    background-color: palevioletred;
+    width: 100px;
+    height: 100px;
+    padding: 75px;
+    position: relative;
+}
+
+.EX1static{
+    background-color: aquamarine;
+    padding: 100px;
+    border: 1px solid black;
+    width: 200px;
+    top: 100px;
+    left: 500px;
+    position: static;
+
+}
+
